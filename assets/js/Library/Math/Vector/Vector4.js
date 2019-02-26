@@ -91,6 +91,6 @@ export default class Vector4 {
         this.y = tempY;
         this.z = tempZ;
 
-        return new Vector3(tempX, tempY, tempZ);
+        return new Vector4(tempX, tempY, tempZ);
     }
 }
